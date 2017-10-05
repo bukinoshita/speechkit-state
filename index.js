@@ -10,8 +10,8 @@ module.exports = async (
   { pooling = false } = {}
 ) => {
   if (!pooling) {
-    await check(token, newsSiteId, articleId)
-    return
+    const isProcessed = await check(token, newsSiteId, articleId)
+    return isProcessed
   }
 
   let final
