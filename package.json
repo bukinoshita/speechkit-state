@@ -9,6 +9,17 @@
   "scripts": {
     "test": "xo"
   },
+  "keywords": [
+    "speechkit",
+    "api",
+    "wrapper",
+    "AI",
+    "artificial",
+    "intelligence",
+    "audio",
+    "read",
+    "state"
+  ],
   "dependencies": {
     "speechkit-js": "^0.0.1"
   },
