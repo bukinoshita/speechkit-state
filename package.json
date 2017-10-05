@@ -1,0 +1,25 @@
+{
+  "name": "speechkit-state",
+  "version": "0.0.0",
+  "description": "Check if the state of SpeechKit article has been processed",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/speechkit-state.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo"
+  },
+  "dependencies": {
+    "speechkit-js": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.6.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": ["prettier"],
+    "rules": {
+      "no-await-in-loop": 0
+    }
+  }
+}
