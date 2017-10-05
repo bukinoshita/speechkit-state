@@ -1,6 +1,6 @@
 {
   "name": "speechkit-state",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Check if the state of SpeechKit article has been processed",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/speechkit-state.git",
@@ -28,7 +28,9 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "extends": ["prettier"],
+    "extends": [
+      "prettier"
+    ],
     "rules": {
       "no-await-in-loop": 0
     }
