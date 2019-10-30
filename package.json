@@ -24,7 +24,7 @@
     "speechkit-js": "^0.0.1"
   },
   "devDependencies": {
-    "eslint-config-prettier": "6.4.0",
+    "eslint-config-prettier": "6.5.0",
     "xo": "0.18.2"
   },
   "xo": {
